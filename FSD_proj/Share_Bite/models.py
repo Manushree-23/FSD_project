@@ -25,3 +25,4 @@ class Request(models.Model):
     ngo = models.ForeignKey(User, on_delete=models.CASCADE)
     message = models.TextField(blank=True)
     requested_at = models.DateTimeField(auto_now_add=True)
+    accepted = models.BooleanField(default=False)

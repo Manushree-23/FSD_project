@@ -6,15 +6,19 @@ body {
     color: #000000;
     padding-top: 60px;
     background-image: url('/static/images/donate-bg.jpeg');  /* adjust path if needed */
-    background-size: cover;       /* Makes it cover entire background */
-    background-repeat: no-repeat; /* Prevents tiling */
-    background-position: center;  /* Centered image */
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 80vh;
+    margin: 0;
+    padding: 0;
 }
 
 .container {
     width: 90%;
     max-width: 600px;
-    margin: 30px auto;
+    margin: 90px auto;
     background: rgba(255, 255, 255, 0.723);
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
