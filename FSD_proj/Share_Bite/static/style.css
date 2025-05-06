@@ -1,17 +1,21 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Poppins';
     margin: 0;
     padding: 0;
     background-color: #f8f9fa;
-    color: #333;
+    color: #000000;
     padding-top: 60px;
+    background-image: url('/static/images/donate-bg.jpeg');  /* adjust path if needed */
+    background-size: cover;       /* Makes it cover entire background */
+    background-repeat: no-repeat; /* Prevents tiling */
+    background-position: center;  /* Centered image */
 }
 
 .container {
     width: 90%;
-    max-width: 800px;
+    max-width: 600px;
     margin: 30px auto;
-    background: white;
+    background: rgba(255, 255, 255, 0.723);
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     border-radius: 8px;
@@ -40,10 +44,11 @@ form input, form textarea, form select {
 button, input[type="submit"] {
     background-color: #000000;
     color: white;
+    max-width: 100px;
     text-decoration: none;
     border: none;
     padding: 10px 20px;
-    margin-top: 20px;
+    margin: 20px auto; 
     cursor: pointer;
     border-radius: 5px;
     display: block;
