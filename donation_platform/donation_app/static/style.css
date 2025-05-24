@@ -1,0 +1,105 @@
+body {
+    font-family: 'Poppins';
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #000000;
+    padding-top: 60px;
+    background-image: url('/static/images/donate-bg.jpeg');  
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    min-height: 80vh;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    margin: 90px auto;
+    background: rgba(255, 255, 255, 0.723);
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #000000;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input, form textarea, form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button, input[type="submit"] {
+    background-color: #000000;
+    color: white;
+    max-width: 100px;
+    text-decoration: none;
+    border: none;
+    padding: 10px 20px;
+    margin: 20px auto; 
+    cursor: pointer;
+    border-radius: 5px;
+    display: block;
+}
+
+button:hover, input[type="submit"]:hover {
+    background-color: #000000;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    background-color: #fff;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #343a40;
+}
+
+.card-text {
+    margin: 5px 0;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #000000;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    z-index: 1000;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+
+.alert {
+    background-color: #e2e3e5;
+    padding: 10px;
+    border-left: 4px solid #007bff;
+    margin-top: 20px;
+}
